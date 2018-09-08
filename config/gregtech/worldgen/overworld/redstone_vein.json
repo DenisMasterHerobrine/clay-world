@@ -1,12 +1,13 @@
 {
-  "weight": 70,
+  "weight": 0,
   "density": 0.4,
-  "max_height": 50,
+  "max_height": 40,
   "min_height": 10,
+  "dimension_filter": ["is_nether"],
 
   "generator": {
     "type": "ellipsoid",
-    "radius": [17, 19]
+    "radius": [12, 12]
   },
   "filler": {
     "type": "simple",
