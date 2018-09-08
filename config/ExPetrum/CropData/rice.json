@@ -1,0 +1,42 @@
+{
+	"crop" : "RICE",
+	"minimalTemperature" : {
+		"min" : 10,
+		"max" : 60
+ 	},
+	"optimalTemperature" : {
+		"min" : 14,
+		"max" : 30
+	},
+	"perfectTemperature" : {
+		"min" : 20,
+		"max" : 22
+	},
+	"humidityRange" : {
+		"min" : 0.5,
+		"max" : 2
+	},
+	"growthStages" : 6,
+	"growthRate" : 0.4,
+	"baseHealth" : 100,
+	"bug" : "BROWN_PLANTHOPPER",
+	"foundIn" : [
+		"densewarmforest",
+		"jungle",
+		"lake"
+	],
+	"harvestSeason" : [
+		"AUTUMN"
+	],
+	"harvestAction" : "DESTROY",
+	"nutrientConsumption" : {
+		"NITROGEN" : 0.03,
+		"PHOSPHORUS" : 0.005,
+		"POTASSIUM" : 0.01,
+		"CALCIUM" : 0.02,
+		"SULPHUR" : 0.0001,
+		"MAGNESIUM" : 0.01,
+		"MICRONUTRIENTS" : 0.01
+	},
+	"waterConsumption" : 25
+}

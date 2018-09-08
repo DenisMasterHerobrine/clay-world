@@ -1,0 +1,42 @@
+{
+	"crop" : "MAIZE",
+	"minimalTemperature" : {
+		"min" : 2,
+		"max" : 50
+ 	},
+	"optimalTemperature" : {
+		"min" : 12,
+		"max" : 30
+	},
+	"perfectTemperature" : {
+		"min" : 18,
+		"max" : 24
+	},
+	"humidityRange" : {
+		"min" : 0.2,
+		"max" : 1
+	},
+	"growthStages" : 8,
+	"growthRate" : 1,
+	"baseHealth" : 100,
+	"bug" : "EARWIG",
+	"foundIn" : [
+		"warmplains",
+		"savanna"
+	],
+	"harvestSeason" : [
+		"SUMMER",
+		"AUTUMN"
+	],
+	"harvestAction" : "SETBACK_2",
+	"nutrientConsumption" : {
+		"NITROGEN" : 0.03,
+		"PHOSPHORUS" : 0.005,
+		"POTASSIUM" : 0.01,
+		"CALCIUM" : 0.02,
+		"SULPHUR" : 0.0001,
+		"MAGNESIUM" : 0.01,
+		"MICRONUTRIENTS" : 0.01
+	},
+	"waterConsumption" : 10
+}

@@ -1,0 +1,40 @@
+{
+    "entries":[
+        {
+            "id": "minecraft:flint",
+            "metadata": -1,
+            "volume" : { "x" : 1, "y" : 1 },
+            "weight" : 50
+        },
+        {
+            "id": "minecraft:brick",
+            "metadata": 0,
+            "volume" : { "x" : 1, "y" : 1 },
+            "weight" : 100
+        },
+        {
+            "id": "minecraft:brick_block",
+            "metadata": 0,
+            "volume" : { "x" : 2, "y" : 2 },
+            "weight" : 400
+        },
+        {
+            "id": "minecraft:torch",
+            "metadata": 0,
+            "volume" : { "x" : 1, "y" : 1 },
+            "weight" : 10
+        },
+        {
+            "id": "minecraft:glass_bottle",
+            "metadata": 0,
+            "volume" : { "x" : 1, "y" : 1 },
+            "weight" : 150
+        },
+        {
+            "id": "minecraft:bone",
+            "metadata": 0,
+            "volume" : { "x" : 1, "y" : 1 },
+            "weight" : 400
+        }
+    ]
+}

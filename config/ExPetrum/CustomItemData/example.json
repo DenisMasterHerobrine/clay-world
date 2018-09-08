@@ -1,0 +1,17 @@
+{ 
+  "__comment" : "This is an example file of ExPetrum's custom weight/volume system for items. This example file will be ignored!", 
+  "entries" : 
+  [ 
+    {
+    "__comment" : "This is an example entry. A file can have as many entries as you wish.", 
+    "__comment_volume" : "This is an example of a volume. A volume is a pair of x/z coordinates that dictates the amount of slots the item takes in the inventory.", 
+    "volume" : { "x" : 1, "y" : 1 },
+    "__comment_weight" : "This is an example of a weight. A weight is... well, weight. It is defined in gramms.", 
+    "weight" : 100, 
+    "__comment_id" : "id is the registry name of the item. Press F3+H in game to see registry names of things.", 
+    "id" : "minecraft:apple", 
+    "__comment_metadata" : "metadata is the damage value for the item. Useful if you need to differentiate between items with the same id. Put -1 to ignore metadata completely.", 
+    "metadata" : -1
+    }
+  ] 
+}
