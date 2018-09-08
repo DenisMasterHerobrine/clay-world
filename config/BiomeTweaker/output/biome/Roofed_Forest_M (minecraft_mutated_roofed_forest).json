@@ -23,8 +23,8 @@
     "SPOOKY",
     "RARE",
     "FOREST",
-    "DENSE",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

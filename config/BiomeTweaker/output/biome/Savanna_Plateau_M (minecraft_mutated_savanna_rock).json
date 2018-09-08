@@ -23,8 +23,8 @@
     "DRY",
     "RARE",
     "SPARSE",
-    "HILLS",
     "SAVANNA",
+    "HILLS",
     "HOT"
   ],
   "BiomeManager Entries": {},

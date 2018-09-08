@@ -23,9 +23,9 @@
     "DRY",
     "RARE",
     "SPARSE",
+    "MOUNTAIN",
     "SAVANNA",
-    "HOT",
-    "MOUNTAIN"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -23,9 +23,9 @@
     "CONIFEROUS",
     "COLD",
     "FOREST",
-    "HILLS",
+    "MEGA_TAIGA_TREES",
     "THEMED_TREES",
-    "MEGA_TAIGA_TREES"
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
