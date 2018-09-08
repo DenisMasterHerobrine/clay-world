@@ -65,7 +65,7 @@
     recipes.addShaped("Mana Spreader",  
     <botania:spreader>, 
 	[[<botania:livingwood>, <botania:livingwood>, <botania:livingwood>],
-    [<thebetweenlands:items_crushed:35>, <ore:petal>, null],
+    [<thebetweenlands:items_crushed:35>, <botania:petal:5>, null],
     [<botania:livingwood>, <botania:livingwood>, <botania:livingwood>]]);
 
 #Mana Powder

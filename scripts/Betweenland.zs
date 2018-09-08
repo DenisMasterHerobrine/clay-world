@@ -45,3 +45,9 @@
     [[null, <minecraft:string>, null],
     [<roots:pereskia_blossom>, <minecraft:feather>, <roots:pereskia_blossom>],
     [null, <minecraft:string>, null]]);
+
+#Mortar
+    recipes.addShaped(<thebetweenlands:mortar>, 
+    [[<thebetweenlands:betweenstone>, null, <thebetweenlands:betweenstone>], 
+    [<thebetweenlands:betweenstone>, <thebetweenlands:betweenstone>, <thebetweenlands:betweenstone>], 
+    [<thebetweenlands:items_misc:20>, null, <thebetweenlands:items_misc:20>]]);    
