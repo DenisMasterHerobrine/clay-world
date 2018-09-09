@@ -19,6 +19,9 @@
     recipes.remove(<cyclicmagic:block_workbench>);
     recipes.remove(<cyclicmagic:auto_crafter>);
     recipes.remove(<extendedcrafting:handheld_table>);
+    recipes.remove(<minecraft:dye:15>);
+    recipes.remove(<minecraft:gravel>);
+    recipes.remove(<minecraft:flint>);
 
 #Clay
     recipes.remove(<minecraft:clay_ball>);    
@@ -40,4 +43,8 @@
     [null, <primal:terracotta_block>, null]]);     
 
 #Glass
-    furnace.addRecipe(<minecraft:glass>, <aether:ferrosite_sand>);    
+    furnace.addRecipe(<minecraft:glass>, <aether:ferrosite_sand>);   
+
+#Cobblestone from Rocks
+    recipes.remove(<minecraft:gravel>);
+    recipes.addShapeless(<minecraft:cobblestone>, [<survivalist:rock>, <survivalist:rock>, <survivalist:rock>, <survivalist:rock>]);

@@ -3,25 +3,25 @@
     recipes.addShapeless(<primal:thatching_wet>, [<minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>]);
 
 #Tools Repairment
-    recipes.addShapeless(<primal:flint_hatchet>, [<primal:flint_hatchet>.onlyDamageAtLeast(41), <minecraft:cobblestone>]);
-    recipes.addShapeless(<primal:flint_hoe>, [<primal:sword_crude_flint>.onlyDamageAtLeast(81), <minecraft:cobblestone>]);
-    recipes.addShapeless(<primal:flint_hoe>, [<primal:flint_shears>.onlyDamageAtLeast(81), <minecraft:cobblestone>]);
-    recipes.addShapeless(<primal:flint_hoe>, [<primal:flint_axe>.onlyDamageAtLeast(81), <minecraft:cobblestone>]);
-    recipes.addShapeless(<primal:flint_hoe>, [<primal:flint_hoe>.onlyDamageAtLeast(81), <minecraft:cobblestone>]);
-    recipes.addShapeless(<primal:flint_shovel>, [<primal:flint_shovel>.onlyDamageAtLeast(81), <minecraft:cobblestone>]);
+    recipes.addShapeless(<primal:flint_hatchet>, [<primal:flint_hatchet>.onlyDamageAtLeast(41), <survivalist:rock>]);
+    recipes.addShapeless(<primal:flint_hoe>, [<primal:sword_crude_flint>.onlyDamageAtLeast(81), <survivalist:rock>]);
+    recipes.addShapeless(<primal:flint_hoe>, [<primal:flint_shears>.onlyDamageAtLeast(81), <survivalist:rock>]);
+    recipes.addShapeless(<primal:flint_hoe>, [<primal:flint_axe>.onlyDamageAtLeast(81), <survivalist:rock>]);
+    recipes.addShapeless(<primal:flint_hoe>, [<primal:flint_hoe>.onlyDamageAtLeast(81), <survivalist:rock>]);
+    recipes.addShapeless(<primal:flint_shovel>, [<primal:flint_shovel>.onlyDamageAtLeast(81), <survivalist:rock>]);
     recipes.addShapeless(<primal:flint_pickaxe>, [<primal:flint_pickaxe>.onlyDamageAtLeast(81),<primal:flint_knapp>]);
 
-    recipes.addShapeless(<primal:flint_hatchet>, [<primal:flint_hatchet>.onlyDamageAtMost(39), <minecraft:cobblestone>, <minecraft:cobblestone>]);
-    recipes.addShapeless(<primal:sword_crude_flint>, [<primal:sword_crude_flint>.onlyDamageAtMost(79), <minecraft:cobblestone>, <minecraft:    cobblestone>]);
-    recipes.addShapeless(<primal:flint_hoe>, [<primal:flint_hoe>.onlyDamageAtMost(79), <minecraft:cobblestone>, <minecraft:cobblestone>]);
-    recipes.addShapeless(<primal:flint_hatchet>, [<primal:flint_hatchet>.onlyDamageAtMost(79), <minecraft:cobblestone>, <minecraft:cobblestone>])    ;
-    recipes.addShapeless(<primal:flint_axe>, [<primal:flint_axe>.onlyDamageAtMost(79), <minecraft:cobblestone>, <minecraft:cobblestone>]);
-    recipes.addShapeless(<primal:flint_shears>, [<primal:flint_shears>.onlyDamageAtMost(79), <minecraft:cobblestone>, <minecraft:cobblestone>]);
-    recipes.addShapeless(<primal:flint_shovel>, [<primal:flint_shovel>.onlyDamageAtMost(79), <minecraft:cobblestone>, <minecraft:cobblestone>]);
+    recipes.addShapeless(<primal:flint_hatchet>, [<primal:flint_hatchet>.onlyDamageAtMost(39), <survivalist:rock>, <survivalist:rock>]);
+    recipes.addShapeless(<primal:sword_crude_flint>, [<primal:sword_crude_flint>.onlyDamageAtMost(79), <survivalist:rock>, <minecraft:    cobblestone>]);
+    recipes.addShapeless(<primal:flint_hoe>, [<primal:flint_hoe>.onlyDamageAtMost(79), <survivalist:rock>, <survivalist:rock>]);
+    recipes.addShapeless(<primal:flint_hatchet>, [<primal:flint_hatchet>.onlyDamageAtMost(79), <survivalist:rock>, <survivalist:rock>])    ;
+    recipes.addShapeless(<primal:flint_axe>, [<primal:flint_axe>.onlyDamageAtMost(79), <survivalist:rock>, <survivalist:rock>]);
+    recipes.addShapeless(<primal:flint_shears>, [<primal:flint_shears>.onlyDamageAtMost(79), <survivalist:rock>, <survivalist:rock>]);
+    recipes.addShapeless(<primal:flint_shovel>, [<primal:flint_shovel>.onlyDamageAtMost(79), <survivalist:rock>, <survivalist:rock>]);
     recipes.addShapeless(<primal:flint_pickaxe>, [<primal:flint_pickaxe>.onlyDamageAtMost(79),<primal:flint_knapp>,<primal:flint_knapp>]);
-    recipes.addShapeless(<primal:flint_pickaxe>, [<primal:flint_pickaxe>.onlyDamageAtLeast(109),<minecraft:cobblestone>]);
-    recipes.addShapeless(<primal:flint_pickaxe>, [<primal:flint_pickaxe>.onlyDamageBetween(56, 108),<minecraft:cobblestone>,<minecraft:cobblestone>]);
-    recipes.addShapeless(<primal:flint_pickaxe>, [<primal:flint_pickaxe>.onlyDamageAtMost(55),<minecraft:cobblestone>,<minecraft:cobblestone>,<minecraft:cobblestone>]);
+    recipes.addShapeless(<primal:flint_pickaxe>, [<primal:flint_pickaxe>.onlyDamageAtLeast(109),<survivalist:rock>]);
+    recipes.addShapeless(<primal:flint_pickaxe>, [<primal:flint_pickaxe>.onlyDamageBetween(56, 108),<survivalist:rock>,<survivalist:rock>]);
+    recipes.addShapeless(<primal:flint_pickaxe>, [<primal:flint_pickaxe>.onlyDamageAtMost(55),<survivalist:rock>,<survivalist:rock>,<survivalist:rock>]);
 
     recipes.addShapeless(<primal:flint_shears>, [<primal:flint_shears>.anyDamage(), <primal:flint_knapp>]);
     recipes.addShapeless(<primal:flint_axe>, [<primal:flint_axe>.anyDamage(), <primal:flint_knapp>]);
