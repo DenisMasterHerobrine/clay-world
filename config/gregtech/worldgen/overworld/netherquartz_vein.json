@@ -1,13 +1,13 @@
 {
   "weight": 0,
-  "density": 0.2,
-  "max_height": 110,
-  "min_height": 40,
+  "density": 0,
+  "max_height": 0,
+  "min_height": 0,
   "dimension_filter": ["is_nether"],
 
   "generator": {
     "type": "ellipsoid",
-    "radius": [18, 18]
+    "radius": [0, 0]
   },
   "filler": {
     "type": "simple",
@@ -15,7 +15,7 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 100,
+          "weight": 0,
           "value": "ore:nether_quartz"
         }
       ]

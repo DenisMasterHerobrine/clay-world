@@ -1,12 +1,12 @@
 {
   "weight": 0,
-  "density": 0.3,
-  "max_height": 30,
-  "min_height": 20,
+  "density": 0,
+  "max_height": 0,
+  "min_height": 0,
 
   "generator": {
     "type": "ellipsoid",
-    "radius": [13, 13]
+    "radius": [0, 0]
   },
   "filler": {
     "type": "simple",
@@ -14,19 +14,19 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 30,
+          "weight": 0,
           "value": "ore:grossular"
         },
         {
-          "weight": 30,
+          "weight": 0,
           "value": "ore:spessartine"
         },
 		{
-          "weight": 30,
+          "weight": 0,
           "value": "ore:pyrolusite"
         },
 		{
-          "weight": 10,
+          "weight": 0,
           "value": "ore:tantalite"
         }
       ]

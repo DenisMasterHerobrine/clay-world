@@ -1,13 +1,13 @@
 {
   "weight": 0,
-  "density": 0.3,
-  "max_height": 70,
-  "min_height": 10,
+  "density": 0,
+  "max_height": 0,
+  "min_height": 0,
   "dimension_filter": ["is_nether"],
 
   "generator": {
     "type": "ellipsoid",
-    "radius": [16, 17]
+    "radius": [0, 0]
   },
   "filler": {
     "type": "simple",
@@ -15,15 +15,15 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 60,
+          "weight": 0,
           "value": "ore:sulfur"
         },
         {
-          "weight": 20,
+          "weight": 0,
           "value": "ore:pyrite"
         },
 		{
-          "weight": 20,
+          "weight": 0,
           "value": "ore:sphalerite"
         }
       ]

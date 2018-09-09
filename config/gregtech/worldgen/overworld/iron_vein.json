@@ -1,14 +1,14 @@
 {
   "weight": 0,
-  "density": 0.4,
-  "max_height": 45,
-  "min_height": 10,
+  "density": 0,
+  "max_height": 0,
+  "min_height": 0,
   "dimension_filter": ["is_nether"],
   "surface_stone_material": "iron",
 
   "generator": {
     "type": "ellipsoid",
-    "radius": [9, 12]
+    "radius": [0, 0]
   },
   "filler": {
     "type": "simple",
@@ -16,19 +16,19 @@
       "type": "weight_random",
       "values": [
 		{
-          "weight": 30,
+          "weight": 0,
           "value": "ore:brown_limonite"
         },
         {
-          "weight": 30,
+          "weight": 0,
           "value": "ore:yellow_limonite"
         },
 		{
-          "weight": 30,
+          "weight": 0,
           "value": "ore:banded_iron"
         },
 		{
-          "weight": 10,
+          "weight": 0,
           "value": "ore:malachite"
         }
       ]

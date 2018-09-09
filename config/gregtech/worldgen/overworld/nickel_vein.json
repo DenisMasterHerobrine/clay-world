@@ -1,14 +1,14 @@
 {
   "weight": 0,
-  "density": 0.4,
-  "max_height": 45,
-  "min_height": 10,
+  "density": 0,
+  "max_height": 0,
+  "min_height": 0,
   "dimension_filter": ["is_nether"],
   "surface_stone_material": "nickel",
 
   "generator": {
     "type": "ellipsoid",
-    "radius": [7, 9]
+    "radius": [0, 0]
   },
   "filler": {
     "type": "simple",
@@ -16,19 +16,19 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 30,
+          "weight": 0,
           "value": "ore:garnierite"
         },
         {
-          "weight": 30,
+          "weight": 0,
           "value": "ore:nickel"
         },
 		{
-          "weight": 30,
+          "weight": 0,
           "value": "ore:cobaltite"
         },
 		{
-          "weight": 10,
+          "weight": 0,
           "value": "ore:pentlandite"
         }
       ]
