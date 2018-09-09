@@ -3,7 +3,7 @@
 
 #Betwenstone Slabs
     recipes.remove(<thebetweenlands:betweenstone_slab>);    
-    recipes.addShapeless(<thebetweenlands:betweenstone_slab>, [<thebetweenlands:betweenstone>,<primal:flint_saw>.anyDamage()]);
+    recipes.addShapeless(<thebetweenlands:betweenstone_slab>, [<thebetweenlands:betweenstone>, <primal:flint_saw>.anyDamage()]);
 
 #Weedwood Planks
     recipes.remove(<thebetweenlands:weedwood_planks>);
@@ -11,12 +11,11 @@
 
 #Weedwood Sticks
     recipes.remove(<thebetweenlands:items_misc:20>);
-    recipes.addShapeless(<thebetweenlands:items_misc:20> * 2, [<ore:toolSaw>,<thebetweenlands:weedwood_planks>]);
 
 
 #Weedwood Crafting Table
     recipes.remove(<thebetweenlands:weedwood_workbench>);
-    recipes.addShapeless(<thebetweenlands:weedwood_workbench>, [<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>]);
+    recipes.addShapeless(<thebetweenlands:weedwood_workbench>, [<primal:plant_cordage>, <primal:plant_cordage>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>]);
 
 #Weedwood Chest
     recipes.remove(<thebetweenlands:weedwood_chest>);
@@ -31,7 +30,7 @@
     recipes.addShaped("Sulfur Furnace",  
     <thebetweenlands:sulfur_furnace>, 
 	[[<primal:terracotta_block>, <primal:terracotta_block>, <primal:terracotta_block>],
-    [<primal:terracotta_block>, <roots:stone_hammer>, <primal:terracotta_block>],
+    [<primal:terracotta_block>, <roots:stone_hammer>.anyDamage(), <primal:terracotta_block>],
     [<thebetweenlands:betweenstone_slab>, <thebetweenlands:betweenstone_slab>, <thebetweenlands:betweenstone_slab>]]);
 
 #Marigold
@@ -47,7 +46,15 @@
     [null, <minecraft:string>, null]]);
 
 #Mortar
+    recipes.remove(<thebetweenlands:mortar>);
     recipes.addShaped(<thebetweenlands:mortar>, 
     [[<thebetweenlands:betweenstone>, null, <thebetweenlands:betweenstone>], 
     [<thebetweenlands:betweenstone>, <thebetweenlands:betweenstone>, <thebetweenlands:betweenstone>], 
     [<thebetweenlands:items_misc:20>, null, <thebetweenlands:items_misc:20>]]);    
+
+#Mortar
+    recipes.remove(<thebetweenlands:pestle>);
+    recipes.addShaped(<thebetweenlands:pestle>, 
+    [[null, <thebetweenlands:items_misc:20>, null], 
+    [null, <thebetweenlands:betweenstone>, null], 
+    [null, <thebetweenlands:betweenstone>, null]]);    

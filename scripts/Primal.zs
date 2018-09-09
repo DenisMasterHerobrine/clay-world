@@ -12,7 +12,7 @@
     recipes.addShapeless(<primal:flint_pickaxe>, [<primal:flint_pickaxe>.onlyDamageAtLeast(81), <primal:flint_knapp>]);
 
     recipes.addShapeless(<primal:flint_hatchet>, [<primal:flint_hatchet>.onlyDamageAtMost(39), <survivalist:rock>, <survivalist:rock>]);
-    recipes.addShapeless(<primal:sword_crude_flint>, [<primal:sword_crude_flint>.onlyDamageAtMost(79), <survivalist:rock>, <minecraft:cobblestone>]);
+    recipes.addShapeless(<primal:sword_crude_flint>, [<primal:sword_crude_flint>.onlyDamageAtMost(79), <survivalist:rock>, <survivalist:rock>]);
     recipes.addShapeless(<primal:flint_hoe>, [<primal:flint_hoe>.onlyDamageAtMost(79), <survivalist:rock>, <survivalist:rock>]);
     recipes.addShapeless(<primal:flint_hatchet>, [<primal:flint_hatchet>.onlyDamageAtMost(79), <survivalist:rock>, <survivalist:rock>]);
     recipes.addShapeless(<primal:flint_axe>, [<primal:flint_axe>.onlyDamageAtMost(79), <survivalist:rock>, <survivalist:rock>]);
@@ -29,6 +29,9 @@
     recipes.addShapeless(<primal:flint_hoe>, [<primal:flint_hoe>.anyDamage(), <primal:flint_knapp>]);
     recipes.addShapeless(<primal:sword_crude_flint>, [<primal:sword_crude_flint>.anyDamage(), <primal:flint_knapp>]);
     recipes.addShapeless(<primal:flint_shovel>, [<primal:flint_shovel>.anyDamage(), <primal:flint_knapp>]);
+    recipes.addShapeless(<primal:flint_saw>, [<primal:flint_saw>.onlyDamageAtMost(79), <survivalist:rock>, <survivalist:rock>]);
+    recipes.addShapeless(<primal:flint_saw>, [<primal:flint_saw>.onlyDamageAtLeast(81), <survivalist:rock>]);
+    recipes.addShapeless(<primal:flint_saw>, [<primal:flint_saw>.anyDamage(), <primal:flint_knapp>]);
 
 #Bark to Charcoal Mote
     furnace.addRecipe(<primal:charcoal_mote>, <roots:bark_oak>);
@@ -37,3 +40,6 @@
     furnace.addRecipe(<primal:charcoal_mote>, <roots:bark_jungle>);
     furnace.addRecipe(<primal:charcoal_mote>, <roots:bark_dark_oak>);
     furnace.addRecipe(<primal:charcoal_mote>, <roots:bark_acacia>);
+
+#Shears 
+    recipes.remove(<primal:flint_shears>);  
